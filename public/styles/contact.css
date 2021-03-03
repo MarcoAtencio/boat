@@ -1,0 +1,125 @@
+
+/*NAVBAR*/
+.navbar{
+    background: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 80px;
+    border-bottom: 2px solid #2facff;
+    text-align: center;
+
+}
+.navbar img{
+    width: 90px;
+}
+.navbar .contact{
+    background-color:#2facff;
+}
+.navbar .contact:hover{
+    background-color:#0d9dfd;
+}
+.navbar .contact a{
+    color: white;
+}
+.navbar .contact a:hover{
+    color: white;
+}
+.navbar a{
+    font-size: 17px;
+    color: rgb(71, 71, 71);
+    font-family: 'Gotham-Book', sans-serif;
+}
+.navbar a:hover{
+    color: #2facff;
+}
+
+
+/*HOME*/
+#home{
+    margin-top: 200px;
+}
+#home h2{
+    text-align: center;
+    font-size: 40px;
+    color: #6f6f6f;
+    font-family: 'Fredoka One', cursive;
+}
+#home i{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    color: #0d9dfd;
+}
+#home .contact{
+    margin-top:80px;
+    margin-bottom:80px;
+}
+#home .contact p{
+    font-size: 16px;
+    color: #6f6f6f;
+}
+#home .contact a{
+    text-decoration: none;
+    color: #6f6f6f;
+}
+#home .contact a:hover{
+    color: #222222;
+}
+
+#home h4, h5{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #484848;
+}
+#home .map{
+    text-align: center;
+}
+#home iframe{
+    width: 100%;
+    min-height: 400px;
+    margin-top: 20px;
+}
+
+/*RESPONSIVE*/
+
+/*MAXIMO LAPTOP */
+/*******************************************/
+@media only screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px) { 
+    /*NAVBAR*/
+    .navbar img{
+        width: 60px;
+    }
+    .navbar a{
+        font-size: 15px;
+    }
+
+    /*HOME*/
+    #home{
+        margin-top: 130px;
+    }
+    #home .container{
+        width: 75%;
+        margin: auto;
+    }
+    #home h2{
+        font-size: 30px;
+    }
+    #home i{
+        font-size: 25px;
+    }
+    #home .contact{
+        margin-top:30px;
+        margin-bottom: 30px;
+    }
+    #home .contact p{
+        font-size: 15px;
+    }
+    #home h4, h5{
+        margin-top: 10px;
+    }
+
+
+}

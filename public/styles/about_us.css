@@ -1,0 +1,229 @@
+/*GENERLES*/
+body{
+    background-image: url(../image/fondo_quienes_somos.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:rgba(1,1,1,1);
+    font-family: 'Roboto', sans-serif;
+}
+
+/*NAVBAR*/
+.navbar{
+    background: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 80px;
+    border-bottom: 2px solid #2facff;
+    text-align: center;
+
+}
+.navbar img{
+    width: 90px;
+}
+.navbar .contact{
+    background-color:#2facff;
+}
+.navbar .contact:hover{
+    background-color:#0d9dfd;
+}
+.navbar .contact a{
+    color: white;
+}
+.navbar .contact a:hover{
+    color: white;
+}
+.navbar a{
+    font-size: 17px;
+    color: rgb(71, 71, 71);
+    font-family: 'Gotham-Book', sans-serif;
+}
+.navbar a:hover{
+    color: #2facff;
+}
+
+
+/*PRINCIAL*/
+/*HOME*/
+#principal .home{
+    width: auto;
+    min-height: 750px;
+}
+.home h1{
+    font-size: 70px;
+    color: #C7F9FF;
+    margin-top: 220px;
+}
+.home h5{
+    margin: auto;
+    font-size: 40px;
+    color: white;
+    margin-top:40px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.home .btn-next{
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 80px;
+   
+}
+.home .btn-next a{
+    color: white;
+}
+
+#principal .caja_about{
+    width: auto;
+    min-height: 600px;
+    background-color: white;
+    padding: 10px;
+}
+#principal .imagen{
+    text-align: center;
+    margin: auto;
+}
+#principal img{
+    height: 250px;
+    margin-bottom: 10px;
+}
+#principal h3{
+    font-size: 30px;
+    margin-top: 50px;
+    border-bottom: 1px solid #606060;
+    margin-bottom: 30px;
+    color: #3C3C3C;
+    font-family: 'Rubik', sans-serif;
+}
+#principal p{
+    font-size: 16px;
+    color: #686868;
+    font-family: 'Rubik', sans-serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.caja_about .value{
+    text-align: center;
+}
+.caja_about .value h6{
+    background: #83F2FF;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+
+/*FOOTER*/
+#footer{
+    height: auto;
+    background-color: rgba(1,1,1,0.7);
+    font-size: 17px;
+    color: white;
+}
+#footer h3{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+#footer img{
+    width: 40px;
+    margin-top: 10px;
+}
+#footer h4{
+    font-size: 18px;
+    margin-top: 20px;
+}
+#footer ul{
+    list-style: none;
+}
+#footer ul li{
+    line-height: 35px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#footer a:hover{
+    color: #629BF8;
+}
+#footer .credit{
+    width: 90%;
+    min-height: 50px;
+    background-color: rgba(1,1,1,0.8);
+    margin: auto;
+    margin-top:40px;
+    font-size: 14px;
+    clear: both;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+/*RESPONSIVE*/
+
+/*MAXIMO LAPTOP */
+/*******************************************/
+
+@media only screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)  { 
+    /*NAVBAR*/
+    .navbar img{
+        width: 60px;
+    }
+    .navbar a{
+        font-size: 15px;
+    }
+
+    /*HOME*/
+    #principal .home{
+        min-height: 650px;
+    }
+    .home h1{
+        width: 70%;
+        font-size: 55px;
+        margin-left: 20px;
+    }
+    .home h5{
+        font-size: 30px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .caja_about .container{
+        width: 88%;
+        margin:auto;
+    }
+    #principal img{
+        height: 180px;
+    }
+    #principal h3{
+        font-size: 24px;
+    }
+    #principal p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .caja_about .value h6{
+        font-size: 14px;
+    }
+
+    /*FOOTER*/
+    #footer .container{
+        width: 80%;
+        margin: auto;
+        font-size: 14px;
+    }
+    #footer h3{
+        font-size: 20px;
+    }
+    #footer h4{
+        font-size: 17px;
+    }
+    #footer ul li{
+        line-height: 30px;
+    }
+
+}
